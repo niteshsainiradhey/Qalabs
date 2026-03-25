@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.376" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-22T09:09:46.171867200Z">
+<testcase classname="Login" name="login with valid input" time="5.078">
+<system-out><![CDATA[
+Given launch chrome browser.................................................passed
+When enter url "https://www.saucedemo.com/".................................passed
+And enter username "standard_user" and password "secret_sauce"..............passed
+And click on submit.........................................................passed
+Then page title "Logged In Successfully | Practice Test Automation".........passed
+When close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="login with invalid input" time="3.983">
+<system-out><![CDATA[
+Given launch chrome browser.................................................passed
+When enter url "https://www.saucedemo.com/".................................passed
+And enter username "standard_user122" and password "secret_sauce34".........passed
+And click on submit.........................................................passed
+Then page title "Logged In Successfully | Practice Test Automation".........passed
+When close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
